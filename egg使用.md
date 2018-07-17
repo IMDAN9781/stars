@@ -1,4 +1,4 @@
-# egg
+# egg.js
 
 ## 一、安装
 ### 1.
@@ -34,9 +34,10 @@
 		"scripts":{"debug":"egg-bin dev"}
 	注：启动debug，发现断点无法进入，查询到可能为VS Code的新版本bug，需手动开启auto attach（F1）
 	
-	配置为"runtimeArgs": ["run","debug", "--", "--inspect"]可正常启动，但是无法debug启用应用的一些断点（需手动加auto attach）。正常应该用"--inspect-bark"(但新版本配置时无法启动)。
+	配置为"runtimeArgs": ["run","debug", "--", "--inspect"]可正常启动，但是无法debug启用应用的一些断点（需手动加auto attach）。
+	正常应该用"--inspect-bark"(但新版本配置时无法启动)。
 ### 2. 
 
-##三、坑点
+## 三、坑点
 
-##四、
+## 四、
