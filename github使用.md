@@ -1,36 +1,37 @@
-GithubÈÕ³£Ê¹ÓÃ
-Ò»¡¢ÅäÖÃGit
-	1. ÔÚ±¾µØ´´½¨ssh key 
+# Githubæ—¥å¸¸ä½¿ç”¨
+
+### ä¸€ã€é…ç½®Git
+	1. åœ¨æœ¬åœ°åˆ›å»ºssh key 
 	$ ssh-keygen -t rsa -C "email@email.com"
-	"email@email.com"ÎªgithubÉÏ×¢²áµÄÓÊÏä£¬ÒªÇóÈ·ÈÏÂ·¾¶ºÍÊäÈëgithubÃÜÂë£¬¿ÉÓÃÄ¬ÈÏ¡£³É¹¦ºó£¬»áÔÙÂ·¾¶ÏÂÉú³É.sshÎÄ¼ş¼Ğ£¬½øÈë£¬´ò¿ªid_rsa.pub,È«Ñ¡¸´ÖÆÄÚÈİ£»
-	2. github½øÈëÕË»§ÅäÖÃ£¬Ñ¡ÔñSSH Keys£¬½«¸´ÖÆµÄÄÚÈİÌùÈë£»¿ÉÍ¨¹ı$ ssh -T git@github.comÑéÖ¤ÊÇ·ñ³É¹¦£»
-	3. ÉèÖÃusernameºÍemail
+	"email@email.com"ä¸ºgithubä¸Šæ³¨å†Œçš„é‚®ç®±ï¼Œè¦æ±‚ç¡®è®¤è·¯å¾„å’Œè¾“å…¥githubå¯†ç ï¼Œå¯ç”¨é»˜è®¤ã€‚æˆåŠŸåï¼Œä¼šå†è·¯å¾„ä¸‹ç”Ÿæˆ.sshæ–‡ä»¶å¤¹ï¼Œè¿›å…¥ï¼Œæ‰“å¼€id_rsa.pub,å…¨é€‰å¤åˆ¶å†…å®¹ï¼›
+	2. githubè¿›å…¥è´¦æˆ·é…ç½®ï¼Œé€‰æ‹©SSH Keysï¼Œå°†å¤åˆ¶çš„å†…å®¹è´´å…¥ï¼›å¯é€šè¿‡$ ssh -T git@github.coméªŒè¯æ˜¯å¦æˆåŠŸï¼›
+	3. è®¾ç½®usernameå’Œemail
 	$ git config --global user.name "your name"
 	$ git config --global user.email "email@email.com"
 
-¶ş¡¢ÉÏ´«ÖÁgithub²Ö¿â
-	1. µÇÂ¼github£¬ĞÂ½¨²Ö¿âtest£»
-	2. ÔÚ±¾µØĞÂ½¨ÎÄ¼ş¼Ğ£¬ÓÒ¼üÊ¹ÓÃgit bash here£¬´ò¿ªgitÃüÁîĞĞ´°¿Ú£¬Ö´ĞĞgit init£»
-	3. ½«±¾µØÎÄ¼ş¼ÓÈëµ½Ìá½»»º³åÇø£¬git add * ¼ÓÈ«²¿ÄÚÈİ£¬»òÖ¸¶¨ÎÄ¼ş£»
-	4. Ìá½»ÎÄ¼ş git commit -m "Ìá½»ÃèÊö";
-	5. Ìá½»µ½github£¬ git push origin master£¨´Ë²Ù×÷Ç°£¬ĞèÒªÏÈÌí¼ÓÔ¶³ÌµØÖ·Ö´ĞĞgit remote add origin git@github.com:username/test.git£©
+### äºŒã€ä¸Šä¼ è‡³githubä»“åº“
+	1. ç™»å½•githubï¼Œæ–°å»ºä»“åº“testï¼›
+	2. åœ¨æœ¬åœ°æ–°å»ºæ–‡ä»¶å¤¹ï¼Œå³é”®ä½¿ç”¨git bash hereï¼Œæ‰“å¼€gitå‘½ä»¤è¡Œçª—å£ï¼Œæ‰§è¡Œgit initï¼›
+	3. å°†æœ¬åœ°æ–‡ä»¶åŠ å…¥åˆ°æäº¤ç¼“å†²åŒºï¼Œgit add * åŠ å…¨éƒ¨å†…å®¹ï¼Œæˆ–æŒ‡å®šæ–‡ä»¶ï¼›
+	4. æäº¤æ–‡ä»¶ git commit -m "æäº¤æè¿°";
+	5. æäº¤åˆ°githubï¼Œ git push origin masterï¼ˆæ­¤æ“ä½œå‰ï¼Œéœ€è¦å…ˆæ·»åŠ è¿œç¨‹åœ°å€æ‰§è¡Œgit remote add origin git@github.com:username/test.gitï¼‰
 	
-Èı¡¢¼ì³ö²Ö¿â
-	1. ´´½¨¿ËÂ¡°æ±¾
-	±¾µØ²Ö¿â£ºgit clone /path/to/repository
-	Ô¶³Ì²Ö¿â£ºgit clone username@host:/path/to/repository
+### ä¸‰ã€æ£€å‡ºä»“åº“
+	1. åˆ›å»ºå…‹éš†ç‰ˆæœ¬
+	æœ¬åœ°ä»“åº“ï¼šgit clone /path/to/repository
+	è¿œç¨‹ä»“åº“ï¼šgit clone username@host:/path/to/repository
 
-ËÄ¡¢·ÖÖ§
-	1. ´´½¨·ÖÖ§"test"²¢ÇĞ»»¹ıÈ¥
+### å››ã€åˆ†æ”¯
+	1. åˆ›å»ºåˆ†æ”¯"test"å¹¶åˆ‡æ¢è¿‡å»
 	git checkout -b test
-	2. ÇĞ»»»òÖ÷·ÖÖ§
+	2. åˆ‡æ¢æˆ–ä¸»åˆ†æ”¯
 	git checkout master
-	3. É¾³ı·ÖÖ§
+	3. åˆ é™¤åˆ†æ”¯
 	git branch -d test
 	
-Îå¡¢¸üĞÂÓëºÏ²¢
-	1. ¸üĞÂÖ»×îĞÂ°æ±¾ git pull
-	2. ºÏ²¢ÆäËû·ÖÖ§µ½Äãµ±Ç°·ÖÖ§£¨ÀıÈçmaster£© git merge <branch>
-	3. ²é¿´²îÒì git diff <source_branch> <target_branch>
+### äº”ã€æ›´æ–°ä¸åˆå¹¶
+	1. æ›´æ–°åªæœ€æ–°ç‰ˆæœ¬ git pull
+	2. åˆå¹¶å…¶ä»–åˆ†æ”¯åˆ°ä½ å½“å‰åˆ†æ”¯ï¼ˆä¾‹å¦‚masterï¼‰ git merge <branch>
+	3. æŸ¥çœ‹å·®å¼‚ git diff <source_branch> <target_branch>
 	
 	
