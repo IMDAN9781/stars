@@ -12,7 +12,7 @@
 	加载hexo基础html、css、js等文件：hexo g
 	本地启动 hexo s，验证是否配置成功
 ### 6. hexo主题，配置修改
-	（1）安装主题
+	（1）安装主题（https://hexo.io/themes/）
 	git clone https://github.com/iissnan/hexo-theme-next themes/next
 	（2）回到hexo根目录用记事本打开_config.xml文件，修改landscape,改成 next；
 	（3）修改_config.yml
