@@ -1,5 +1,4 @@
-# stars
-Github日常使用
+# Github日常使用
 一、配置Git
 	1. 在本地创建ssh key 
 	$ ssh-keygen -t rsa -C "email@email.com"
