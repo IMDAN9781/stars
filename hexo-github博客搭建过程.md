@@ -22,7 +22,20 @@
 		npm install hexo-deployer-git -save
 	（2）初始化本地仓库git init
 	（4）发布hexo到github
-		hexo clean && hexo g && hexo -d
+		hexo clean && hexo g && hexo d
+### 8. 写博客
+	（1）定位到hexo根目录，执行 hexo new “test”，会在_posts下生成md文件；
+	（2）修改md文件
+		完整格式：
+		---
+		title: postName #文章页面上的显示名称，一般是中文
+		date: 2013-12-02 15:30:16 #文章生成时间，一般不改，当然也可以任意修改
+		categories: 默认分类 #分类
+		tags: [tag1,tag2,tag3] #文章标签，可空，多标签请用格式，注意:后面有个空格
+		description: 附加一段文章摘要，字数最好在140字以内，会出现在meta的description里面
+		---
 
-		
+		以下是正文
+	（3）博文不显示全部内容
+		是在合适的位置加上<!--more-->即可
 		
