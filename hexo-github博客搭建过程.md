@@ -1,4 +1,5 @@
 # hexo-github博客搭建过程
+参考：https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
 
 ### 1. 安装Node.js
 ### 2. 安装Git
