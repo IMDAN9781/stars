@@ -46,22 +46,20 @@
 		git diff <source_branch> <target_branch>
 	
 ### 六、常见错误
-	1. fatal: remote origin already exists.
-	解决办法：
+	1. fatal: remote origin already exists
 		先删除远程git仓库 git remote rm origin（如报错，则手动修改gitconfig文件内容 vi .gt/config，把[remote "origin"]行删除）
 		再添加远程git仓库 git remote add origin git@github.com:username/repo
 	2. RT ! [rejected] master -> master (fetch first)
-	在push远程服务器的时候发现出现此错误；原因是没有同步远程的master
-	所以我们需要先同步一下
+		在push远程服务器的时候发现出现此错误；原因是没有同步远程的master
 		git pull origin master
 	3. git commit 过程中Changes not staged for commit:
-	需要先git add 后在commit 然后 push
+		需要先git add 后在commit 然后 push
 
-	整个流程：
-	$ git add menudd //其中 menudd 是一个目录 也可以是文件 会自动更新有修改的文件
+		整个流程：
+		$ git add menudd //其中 menudd 是一个目录 也可以是文件 会自动更新有修改的文件
 
-	然后 $ git commit -m "asdf" //“asdf”是更新注释
+		然后 $ git commit -m "asdf" //“asdf”是更新注释
 
-	最后 $ git push origin master
+		最后 $ git push origin master
 
-	ok完成 更新成功
+		ok完成 更新成功
