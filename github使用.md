@@ -34,6 +34,8 @@
 		git checkout master
 	3. 删除分支
 		git branch -d test
+	4. 删除远程分支
+		git push origin :develop-deskmark
 	
 ### 五、更新与合并
 	1. 更新只最新版本 
@@ -43,4 +45,9 @@
 	3. 查看差异 
 		git diff <source_branch> <target_branch>
 	
+### 六、常见错误
+	1. fatal: remote origin already exists.
+	解决办法：
+		先删除远程git仓库 git remote rm origin（如报错，则手动修改gitconfig文件内容 vi .gt/config，把[remote "origin"]行删除）
+		再添加远程git仓库 git remote add origin git@github.com:username/repo
 	
