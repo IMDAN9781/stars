@@ -1,25 +1,26 @@
-# hexo-github²©¿Í´î½¨¹ı³Ì
-²Î¿¼£ºhttps://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
+# hexo-githubåšå®¢æ­å»ºè¿‡ç¨‹
+å‚è€ƒï¼šhttps://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
 
-### 1. °²×°Node.js
-### 2. °²×°Git
-### 3. °²×°Hexo
-	´ò¿ªcmd£¬Ö´ĞĞnpm install hexo-cli -g
-	µÈ´ı°²×°Íê³Éºó£¬ÊäÈëhexo -v¼ì²éÊÇ·ñ°²×°³É¹¦
-### 4. githubÉÏĞÂ½¨²©¿Í¿âusername.github.io
-### 5. ³õÊ¼»¯Hexo
-	ĞÂ½¨ÎÄ¼ş¼ĞÓÃÓÚ´æ·Åhexo£¬Ö´ĞĞhexo init£»
-	¼ÓÔØhexo»ù´¡html¡¢css¡¢jsµÈÎÄ¼ş£ºhexo g
-	±¾µØÆô¶¯ hexo s£¬ÑéÖ¤ÊÇ·ñÅäÖÃ³É¹¦
-### 6. hexoÖ÷Ìâ£¬ÅäÖÃĞŞ¸Ä
-	£¨1£©°²×°Ö÷Ìâ£¨https://hexo.io/themes/£©
+### 1. å®‰è£…Node.js
+### 2. å®‰è£…Git
+### 3. å®‰è£…Hexo
+	æ‰“å¼€cmdï¼Œæ‰§è¡Œnpm install hexo-cli -g
+	ç­‰å¾…å®‰è£…å®Œæˆåï¼Œè¾“å…¥hexo -væ£€æŸ¥æ˜¯å¦å®‰è£…æˆåŠŸ
+### 4. githubä¸Šæ–°å»ºåšå®¢åº“username.github.io
+### 5. åˆå§‹åŒ–Hexo
+	æ–°å»ºæ–‡ä»¶å¤¹ç”¨äºå­˜æ”¾hexoï¼Œæ‰§è¡Œhexo initï¼›
+	åŠ è½½hexoåŸºç¡€htmlã€cssã€jsç­‰æ–‡ä»¶ï¼šhexo g
+	æœ¬åœ°å¯åŠ¨ hexo sï¼ŒéªŒè¯æ˜¯å¦é…ç½®æˆåŠŸ
+### 6. hexoä¸»é¢˜ï¼Œé…ç½®ä¿®æ”¹
+	ï¼ˆ1ï¼‰å®‰è£…ä¸»é¢˜ï¼ˆhttps://hexo.io/themes/ï¼‰
 	git clone https://github.com/iissnan/hexo-theme-next themes/next
-	£¨2£©»Øµ½hexo¸ùÄ¿Â¼ÓÃ¼ÇÊÂ±¾´ò¿ª_config.xmlÎÄ¼ş£¬ĞŞ¸Älandscape,¸Ä³É next£»
-	£¨3£©ĞŞ¸Ä_config.yml
-		ÅäÖÃSiteÄÚÈİ£¬Deployment£¨Ô¶³Ì²Ö¿âµØÖ·£©£»
-### 7. ²¿Êğ
-	£¨1£©°²×°²¿Êğ¹¤¾ß
+	ï¼ˆ2ï¼‰å›åˆ°hexoæ ¹ç›®å½•ç”¨è®°äº‹æœ¬æ‰“å¼€_config.xmlæ–‡ä»¶ï¼Œä¿®æ”¹landscape,æ”¹æˆ nextï¼›
+	ï¼ˆ3ï¼‰ä¿®æ”¹_config.yml
+		é…ç½®Siteå†…å®¹ï¼ŒDeploymentï¼ˆè¿œç¨‹ä»“åº“åœ°å€ï¼‰ï¼›
+### 7. éƒ¨ç½²
+	ï¼ˆ1ï¼‰å®‰è£…éƒ¨ç½²å·¥å…·
 		npm install hexo-deployer-git -save
+<<<<<<< HEAD
 	£¨2£©³õÊ¼»¯±¾µØ²Ö¿âgit init
 	£¨4£©·¢²¼hexoµ½github
 		hexo clean && hexo g && hexo d
@@ -39,3 +40,11 @@
 	£¨3£©²©ÎÄ²»ÏÔÊ¾È«²¿ÄÚÈİ
 		ÊÇÔÚºÏÊÊµÄÎ»ÖÃ¼ÓÉÏ<!--more-->¼´¿É
 		
+=======
+	ï¼ˆ2ï¼‰åˆå§‹åŒ–æœ¬åœ°ä»“åº“git init
+	ï¼ˆ4ï¼‰å‘å¸ƒhexoåˆ°github
+		hexo clean && hexo g && hexo d
+
+		
+		
+>>>>>>> 01db3a425fd5d1e65daf323f7ad1d60de5c0bc18
