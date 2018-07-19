@@ -37,3 +37,12 @@
 
 		以下是正文
 	（3）博文不显示全部内容：在合适的位置加上<!--more-->即可
+	（4）添加图片
+		+cd到博客根目录下 查看_config.yml文件 查找 post_asset_folder 字段确定post_asset_folder 设置为true -> post_asset_folder:true
+		+当您设置 post_asset_folder 参数后，在建立文件时，Hexo +会自动建立一个与文章同名的文件夹，您可以把与该文章相关的所有资源都放到此文件夹内，这样就可以更方便的使用资源。
+		+到博客的根目录下执行 npm install https://github.com/CodeFalling/hexo-asset-image --save 命令来进行插件的安装。
+		+然后创建一文章 hexo new "test" 然后查看博客的 ../source/_posts 目录下的文件，会看到存在一个test 文件夹 和 test.md 文件。
+		+将所需要的图片资源放到test文件夹内：
+		+书写文章使用test文件内 的图片 ![BP](test/BP.png)
+		+使用hexo s 命令运行本地博客;
+		+使用hexo clean hexo g hexo deploy 将本地博客推送到远程，即可看到文章中的图片。
